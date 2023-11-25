@@ -1,0 +1,98 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header-menu{
+    margin-left: 20px;
+    
+}
+
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+
+header{
+    width: 100%;
+    color: white;
+    padding: 20;    
+    background:#151c39;
+    box-sizing: border-box;
+}
+.menu-item{
+    list-style: none;
+    color: #151c39;
+}
+.menu-link{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.banner-section{
+    padding: 100px 0;
+    background: url(https://img.freepik.com/free-photo/realistic-texture-of-a-beautiful-carved-out-white-rock_125540-3680.jpg);
+    background-size: size;
+    background-position: center;
+}
+.banner-title, .banner-descriptions{
+    color: white;
+    text-align: center;
+}
+.banner-title{
+    font-size: 48px;
+
+}
+
+/*CARDS*/
+
+.cards-section{
+    padding: 58px;
+}
+
+.cards-title, .cards-description{
+    color: #151c39;
+    text-align: center
+
+}
+.card{
+    padding: 25px;
+    margin-top: 25px;    
+    background: white;
+    box-shadow: 8px 2px 7px 0px #9e90ff;
+    text-align: center;
+    width: 25%;
+
+}
+
+.card:hover{
+    box-shadow: 15px 6px 14px 0px #9e90ff;
+}
+.card-link{
+    text-decoration: none;
+    color: white;
+}
+.card-button{
+    text-align: center;
+    background: #151c39;
+    padding: 10px 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card-title, .card-text{
+    margin-bottom: 10px;
+}
+
+.footer{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/d/d7/%D0%A2%D0%B5%D0%BA%D1%81%D1%82%D1%83%D1%80%D0%B0_%D1%86%D0%B8%D1%84%D1%80%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE_%D1%88%D1%83%D0%BC%D0%B0_%D0%BD%D0%B0_%D1%87%D0%B5%D1%80%D0%BD%D0%BE%D0%BC_%D1%84%D0%BE%D0%BD%D0%B5.jpg);
+    background-size: cover;
+    padding: 100px 0px;
+}
+.copyright{
+    color:white;
+}
